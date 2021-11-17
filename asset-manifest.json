@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Conflicto-Colombia/static/css/main.a6f1ebea.chunk.css",
+    "main.js": "/Conflicto-Colombia/static/js/main.3ed48a54.chunk.js",
+    "main.js.map": "/Conflicto-Colombia/static/js/main.3ed48a54.chunk.js.map",
+    "runtime-main.js": "/Conflicto-Colombia/static/js/runtime-main.81f3ad1d.js",
+    "runtime-main.js.map": "/Conflicto-Colombia/static/js/runtime-main.81f3ad1d.js.map",
+    "static/js/2.2011250c.chunk.js": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js",
+    "static/js/2.2011250c.chunk.js.map": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js.map",
+    "index.html": "/Conflicto-Colombia/index.html",
+    "static/css/main.a6f1ebea.chunk.css.map": "/Conflicto-Colombia/static/css/main.a6f1ebea.chunk.css.map",
+    "static/js/2.2011250c.chunk.js.LICENSE.txt": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js.LICENSE.txt",
+    "static/media/Gaitan.732fbbbd.jpg": "/Conflicto-Colombia/static/media/Gaitan.732fbbbd.jpg",
+    "static/media/Military3.451444e7.svg": "/Conflicto-Colombia/static/media/Military3.451444e7.svg",
+    "static/media/Rojas.bc50b35e.jpg": "/Conflicto-Colombia/static/media/Rojas.bc50b35e.jpg",
+    "static/media/armas.368e143b.png": "/Conflicto-Colombia/static/media/armas.368e143b.png",
+    "static/media/granade.67b66216.png": "/Conflicto-Colombia/static/media/granade.67b66216.png",
+    "static/media/machete.74548428.png": "/Conflicto-Colombia/static/media/machete.74548428.png",
+    "static/media/mariano-ospina.f4f58b8e.jpg": "/Conflicto-Colombia/static/media/mariano-ospina.f4f58b8e.jpg",
+    "static/media/puño.85a9f3d1.png": "/Conflicto-Colombia/static/media/puño.85a9f3d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81f3ad1d.js",
+    "static/js/2.2011250c.chunk.js",
+    "static/css/main.a6f1ebea.chunk.css",
+    "static/js/main.3ed48a54.chunk.js"
+  ]
+}
