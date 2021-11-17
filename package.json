@@ -2,7 +2,7 @@
   "name": "colombia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Orloxx23.github.io/Conflicto-Colombia",
+  "homepage": "https://orloxx23.github.io/Conflicto-Colombia/",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
