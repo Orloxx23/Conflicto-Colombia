@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Conflicto-Colombia/static/css/main.a6f1ebea.chunk.css",
+    "main.css": "/Conflicto-Colombia/static/css/main.e5dc35c2.chunk.css",
     "main.js": "/Conflicto-Colombia/static/js/main.3ed48a54.chunk.js",
     "main.js.map": "/Conflicto-Colombia/static/js/main.3ed48a54.chunk.js.map",
     "runtime-main.js": "/Conflicto-Colombia/static/js/runtime-main.81f3ad1d.js",
@@ -8,7 +8,7 @@
     "static/js/2.2011250c.chunk.js": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js",
     "static/js/2.2011250c.chunk.js.map": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js.map",
     "index.html": "/Conflicto-Colombia/index.html",
-    "static/css/main.a6f1ebea.chunk.css.map": "/Conflicto-Colombia/static/css/main.a6f1ebea.chunk.css.map",
+    "static/css/main.e5dc35c2.chunk.css.map": "/Conflicto-Colombia/static/css/main.e5dc35c2.chunk.css.map",
     "static/js/2.2011250c.chunk.js.LICENSE.txt": "/Conflicto-Colombia/static/js/2.2011250c.chunk.js.LICENSE.txt",
     "static/media/Gaitan.732fbbbd.jpg": "/Conflicto-Colombia/static/media/Gaitan.732fbbbd.jpg",
     "static/media/Military3.451444e7.svg": "/Conflicto-Colombia/static/media/Military3.451444e7.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.81f3ad1d.js",
     "static/js/2.2011250c.chunk.js",
-    "static/css/main.a6f1ebea.chunk.css",
+    "static/css/main.e5dc35c2.chunk.css",
     "static/js/main.3ed48a54.chunk.js"
   ]
 }
