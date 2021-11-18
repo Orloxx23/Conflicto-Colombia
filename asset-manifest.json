@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Conflicto-Colombia/static/css/main.0e9bcc20.chunk.css",
-    "main.js": "/Conflicto-Colombia/static/js/main.e13161c8.chunk.js",
-    "main.js.map": "/Conflicto-Colombia/static/js/main.e13161c8.chunk.js.map",
+    "main.css": "/Conflicto-Colombia/static/css/main.85c19d71.chunk.css",
+    "main.js": "/Conflicto-Colombia/static/js/main.26030bee.chunk.js",
+    "main.js.map": "/Conflicto-Colombia/static/js/main.26030bee.chunk.js.map",
     "runtime-main.js": "/Conflicto-Colombia/static/js/runtime-main.81f3ad1d.js",
     "runtime-main.js.map": "/Conflicto-Colombia/static/js/runtime-main.81f3ad1d.js.map",
     "static/js/2.227791db.chunk.js": "/Conflicto-Colombia/static/js/2.227791db.chunk.js",
     "static/js/2.227791db.chunk.js.map": "/Conflicto-Colombia/static/js/2.227791db.chunk.js.map",
     "index.html": "/Conflicto-Colombia/index.html",
-    "static/css/main.0e9bcc20.chunk.css.map": "/Conflicto-Colombia/static/css/main.0e9bcc20.chunk.css.map",
+    "static/css/main.85c19d71.chunk.css.map": "/Conflicto-Colombia/static/css/main.85c19d71.chunk.css.map",
     "static/js/2.227791db.chunk.js.LICENSE.txt": "/Conflicto-Colombia/static/js/2.227791db.chunk.js.LICENSE.txt",
     "static/media/Gaitan.732fbbbd.jpg": "/Conflicto-Colombia/static/media/Gaitan.732fbbbd.jpg",
     "static/media/Military3.451444e7.svg": "/Conflicto-Colombia/static/media/Military3.451444e7.svg",
@@ -17,13 +17,15 @@
     "static/media/granade.67b66216.png": "/Conflicto-Colombia/static/media/granade.67b66216.png",
     "static/media/machete.74548428.png": "/Conflicto-Colombia/static/media/machete.74548428.png",
     "static/media/mariano-ospina.f4f58b8e.jpg": "/Conflicto-Colombia/static/media/mariano-ospina.f4f58b8e.jpg",
+    "static/media/me.618f14a2.svg": "/Conflicto-Colombia/static/media/me.618f14a2.svg",
     "static/media/negocio.65589a05.svg": "/Conflicto-Colombia/static/media/negocio.65589a05.svg",
+    "static/media/notify.ad6682e5.svg": "/Conflicto-Colombia/static/media/notify.ad6682e5.svg",
     "static/media/puño.85a9f3d1.png": "/Conflicto-Colombia/static/media/puño.85a9f3d1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.81f3ad1d.js",
     "static/js/2.227791db.chunk.js",
-    "static/css/main.0e9bcc20.chunk.css",
-    "static/js/main.e13161c8.chunk.js"
+    "static/css/main.85c19d71.chunk.css",
+    "static/js/main.26030bee.chunk.js"
   ]
 }
