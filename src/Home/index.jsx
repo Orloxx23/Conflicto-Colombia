@@ -3,12 +3,9 @@ import {
   ScrollContainer,
   ScrollPage,
   Animator,
-  Sticky,
   Zoom,
   ZoomIn,
   Fade,
-  FadeIn,
-  FadeOut,
   Move,
   batch,
   MoveIn,
@@ -16,10 +13,24 @@ import {
   MoveOut,
 } from "react-scroll-motion";
 
-import { Fab, Avatar, Typography } from "@mui/material/";
+import {
+  Fab,
+  Avatar,
+  Typography,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Stack,
+  Chip,
+} from "@mui/material/";
 
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
+
+import { Icon } from "@iconify/react";
+import bombIcon from "@iconify/icons-noto-v1/bomb";
+import linkIcon from "@iconify/icons-noto-v1/link";
+import pistolIcon from "@iconify/icons-noto-v1/pistol";
 
 import military from "../img/illustrations/Military3.svg";
 import bullet from "../img/illustrations/bullet.png";
@@ -28,6 +39,7 @@ import puño from "../img/illustrations/puño.png";
 import ak47 from "../img/illustrations/ak47.png";
 import granade from "../img/illustrations/granade.png";
 import machete from "../img/illustrations/machete.png";
+import hand from "../img/illustrations/negocio.svg";
 import mariano from "../img/mariano-ospina.jpg";
 import gaitan from "../img/Gaitan.jpg";
 import rojas from "../img/Rojas.jpg";
@@ -287,60 +299,193 @@ export default function Home() {
         </section>
 
         <section className="section">
-          <div className="guerrillas bg-gray1">
-            <div className="gurrillas-head text-white">
-              <Typography variant="h3">
-                Entre 1964 y 1974 se formaron las guerrillas
-              </Typography>
+          <ScrollPage page={5}>
+            <div className="guerrillas bg-gray1">
+              <div className="gurrillas-head text-white">
+                <Typography variant="h3">
+                  Entre 1964 y 1974 se formaron las guerrillas financiadas por
+                  la coca
+                </Typography>
+              </div>
             </div>
+            <div className="guerrillas bg-gray2">
+              <Animator animation={batch(Move(-1000, 0, 500, 0), Fade())}>
+                <div className="guerrilla1">
+                  <div className="guerrilla1-item-main">
+                    <h1>FARC EP</h1>
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={ak47} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={ak47} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={ak47} alt="arma" />
+                  </div>
+                </div>
+              </Animator>
+            </div>
+            <div className="guerrillas bg-gray3">
+              <Animator animation={batch(Move(1000, 0, -500, 0), Fade())}>
+                <div className="guerrilla2">
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={granade} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={granade} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={granade} alt="arma" />
+                  </div>
+                  <div className="guerrilla2-item-main">
+                    <h1>ELN</h1>
+                  </div>
+                </div>
+              </Animator>
+            </div>
+            <div className="guerrillas bg-gray4">
+              <Animator animation={batch(Move(-1000, 0, 500, 0), Fade())}>
+                <div className="guerrilla1">
+                  <div className="guerrilla1-item-main">
+                    <h1>M-19</h1>
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={machete} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={machete} alt="arma" />
+                  </div>
+                  <div className="guerrilla1-item">
+                    <img className="guerrilla-img" src={machete} alt="arma" />
+                  </div>
+                </div>
+              </Animator>
+            </div>
+          </ScrollPage>
+        </section>
+
+        <section className="section">
+          <ScrollPage page={6}>
+            <div className="vs-narco-mid glitch">
+              <h1>VS</h1>
+            </div>
+            <div
+              className={
+                dark ? "vs-narco-top bgc-dark" : "vs-narco-top bgc-white"
+              }
+            >
+              <div className="">
+                <Accordion
+                  sx={{
+                    width: "100%",
+                    background: "none",
+                    boxShadow: "none",
+                    color: dark ? "white" : "black",
+                  }}
+                >
+                  <AccordionSummary>
+                    <h1>GOBIERNO</h1>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography variant="h5">
+                      El gobierno inició una guerra contra la polvora del
+                      conflicto.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+            </div>
+
+            <div
+              className={
+                dark ? "vs-narco-bot bgc-dark" : "vs-narco-bot bgc-white"
+              }
+            >
+              <div className="">
+                <Accordion
+                  sx={{
+                    width: "100%",
+                    background: "none",
+                    boxShadow: "none",
+                    color: dark ? "white" : "black",
+                  }}
+                >
+                  <AccordionSummary>
+                    <h1>NARCOTRAFICO</h1>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography variant="h5">
+                      La respuesta del cartel de Medellin fue amedrentar a la
+                      población con:
+                    </Typography>
+                    <div className="cartel">
+                      <Stack
+                        direction={{ xs: "column", sm: "row" }}
+                        spacing={{ xs: 1, sm: 2, md: 4 }}
+                      >
+                        <Chip
+                          icon={<Icon icon={bombIcon} />}
+                          sx={{
+                            width: "33%",
+                            height: "2.5vw",
+                            fontSize: "1.5vw",
+                            color: dark ? "white" : "black",
+                          }}
+                          label="Bombas"
+                        />
+                        <Chip
+                          icon={<Icon icon={linkIcon} />}
+                          sx={{
+                            width: "33%",
+                            height: "2.5vw",
+                            fontSize: "1.5vw",
+                            color: dark ? "white" : "black",
+                          }}
+                          label="Secuentros"
+                        />
+                        <Chip
+                          icon={<Icon icon={pistolIcon} />}
+                          sx={{
+                            width: "33%",
+                            height: "2.5vw",
+                            fontSize: "1.5vw",
+                            color: dark ? "white" : "black",
+                          }}
+                          label="Asesinatos"
+                        />
+                      </Stack>
+                    </div>
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+            </div>
+          </ScrollPage>
+        </section>
+
+        <section className="section shadow df">
+          <div className="plan-left">
+            <img className="hands-img" src={hand} alt="Negocio" />
           </div>
-          <div className="guerrillas bg-gray2">
-            <div className="guerrilla1">
-              <div className="guerrilla1-item-main">
-                <h1>FARC EP</h1>
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={ak47} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={ak47} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={ak47} alt="arma" />
-              </div>
-            </div>
-          </div>
-          <div className="guerrillas bg-gray3">
-            <div className="guerrilla2">
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={granade} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={granade} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={granade} alt="arma" />
-              </div>
-              <div className="guerrilla2-item-main">
-                <h1>ELN</h1>
-              </div>
-            </div>
-          </div>
-          <div className="guerrillas bg-gray4">
-            <div className="guerrilla1">
-              <div className="guerrilla1-item-main">
-                <h1>M-19</h1>
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={machete} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={machete} alt="arma" />
-              </div>
-              <div className="guerrilla1-item">
-                <img className="guerrilla-img" src={machete} alt="arma" />
-              </div>
-            </div>
+
+          <div className="plan-right">
+            <h1>Plan Colombia</h1>
+            <p>
+              La situación empezó a cambiar cuando el estado ganó terreno
+              gracias al{" "}
+              <a
+                className={dark ? "text-white" : "text-black"}
+                href="https://es.wikipedia.org/wiki/Plan_Colombia"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Plan Colombia.
+              </a>
+            </p>
+            <p>
+              Los paramilitares se desmovilizaron y tras los duros golpes que
+              recibieron las FARC empezaron los dialogos de paz
+            </p>
           </div>
         </section>
       </ScrollContainer>
